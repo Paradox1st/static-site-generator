@@ -31,3 +31,7 @@ class TestHTMLNode(unittest.TestCase):
     def test_repr_3(self):
         test = HTMLNode("b")
         self.assertEqual(str(test), "HTMLNode(b, None, None, None)")
+
+
+if __name__ == "__main__":
+    unittest.main()
